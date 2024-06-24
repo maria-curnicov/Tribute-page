@@ -32,6 +32,14 @@ p {
   background-color: #222222;
 }
 
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
 .navbar-list {
   display: flex;
   justify-content: center;
@@ -59,6 +67,10 @@ p {
 .container {
   width: 900px;
   margin: 0 auto;
+}
+
+.section-1 {
+  margin-top: 50px;
 }
 
 .section-1,
